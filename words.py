@@ -1,4 +1,4 @@
-name1 = ""
+name1 = "Lenz"
 name2 = ""
 pluralNoun1 = ""
 adjective1 = ""
