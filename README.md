@@ -35,6 +35,31 @@ On Windows, you will need to run these commands from git bash ([Git Bash downloa
 
 1. Create a branch off the `main` branch  (replace `<name-of-your-branch>` with the name of your branch)  
   ```git checkout -b <name-of-your-branch>```
+  <br>
+  
+2. Assign a value to every variable in the file `words.py`
+
+   e.g.: `name1 = "Lenz"`  
+<br>
+
+3. **Stage** your changes, preparing for the **commit**  
+
+   ```git add .``` The `.` here represents "the current folder", or in other words "all files in the current folder". You could also stage a single file 
+   like this `git add words.py`. 
+   
+ 4. **Commit** your **staged** changes and write a short descriptive message about your changes.  
+ 
+     ```git commit -m "<short description of changes>"```
+   
+ 5. **Push** your locally committed changes to github.com  
+  
+     ```git push```  
+     ⚠️ The first time you run `git push` on a newly created branch, it does not yet exist on github. You will get an error message showing you the command to run to create this branch on github.com. It should look something like this: ```git push --set-upstream origin <name-of-your-branch>```  
+   
+ 6. Create a **Pull Request** on github
+ 
+   
+   
 
 
 # Additional resources
