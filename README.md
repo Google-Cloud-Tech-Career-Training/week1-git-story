@@ -57,13 +57,48 @@ On Windows, you will need to run these commands from git bash ([Git Bash downloa
      ⚠️ The first time you run `git push` on a newly created branch, it does not yet exist on github. You will get an error message showing you the command to run to create this branch on github.com. It should look something like this: ```git push --set-upstream origin <name-of-your-branch>```  
    
  6. Create a **Pull Request** on github
+    
+    1. In the **Pull Requests** menu, create a new Pull Request   
+    <br>
+      <!--     ![github_pr_step1](https://user-images.githubusercontent.com/34327253/149280375-693039fe-528b-4a0f-bed7-3892f415f4d2.png)      -->
+      <img src="https://user-images.githubusercontent.com/34327253/149280375-693039fe-528b-4a0f-bed7-3892f415f4d2.png">
+    <br>
+    <br>
+    <br>
+    
+    2. Select `main` as the base branch and your branch as the branch to compare to. Then hit **Create Pull Request**  
+    <br>
+      <!--     ![github_pr_step2](https://user-images.githubusercontent.com/34327253/149280373-c7da7a21-dfb4-42a0-b578-933d71c28e2b.png) -->
+      <img src="https://user-images.githubusercontent.com/34327253/149280373-c7da7a21-dfb4-42a0-b578-933d71c28e2b.png">
+    <br>
+    <br>
+    <br>
+    
+
+  
+    3. Give your PR a title (use your name for this exercise), and hit **Create Pull Request**  
+    <br>
+      <img src="https://user-images.githubusercontent.com/34327253/149282656-d95bc2ec-832a-4a2a-b68e-442f72f39a7e.png">
+      <!--    ![github_pr_step3](https://user-images.githubusercontent.com/34327253/149282656-d95bc2ec-832a-4a2a-b68e-442f72f39a7e.png) -->
+    <br>
+    <br>
+    <br>    
+    
+
+
+<!-- 
+     <img height=200 width=800 src="https://user-images.githubusercontent.com/34327253/149280375-693039fe-528b-4a0f-bed7-3892f415f4d2.png">
+     <img height=200 width=800 src="https://user-images.githubusercontent.com/34327253/149280373-c7da7a21-dfb4-42a0-b578-933d71c28e2b.png">
+     <img height=200 width=800 src="https://user-images.githubusercontent.com/34327253/149280369-923b3526-c583-47df-83b6-bc1588c2ca79.png"> -->
  
-   
-   
+ 
+
+
+
 
 
 # Additional resources
 - [Git Cheet Sheet](https://education.github.com/git-cheat-sheet-education.pdf)
 - [About branches](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches)
-- 
+
 
