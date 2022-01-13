@@ -1,3 +1,4 @@
+# Setup
 
 ## Local environment setup 
 ***Windows only***: 
@@ -24,8 +25,20 @@ On Windows, you will need to run these commands from git bash ([Git Bash downloa
   - Locate and click on the green **CODE** button in the top right of this page 
   - Select **SSH**
   - Copy the url 
-  - From your terminal, type the following command (replace `<url>` with the url):   
+  - In your terminal, `cd` into the location where you would like this repo to live. The next command will create a folder containing this repo's files. 
+  - Type the following command (replace `<url>` with the url):   
   ```git clone <url>```
 
 ![git_screenshot_code_link](https://user-images.githubusercontent.com/34327253/149275115-b26a213a-2efe-4165-a8f1-1392b60d9f5f.png)
+
+# Exercise 
+
+1. Create a branch off the `main` branch  (replace `<name-of-your-branch>` with the name of your branch)  
+  ```git checkout -b <name-of-your-branch>```
+
+
+# Additional resources
+- [Git Cheet Sheet](https://education.github.com/git-cheat-sheet-education.pdf)
+- [About branches](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches)
+- 
 
