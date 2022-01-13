@@ -77,6 +77,7 @@ In this exercise you will learn about:
      >The push command uploads all your current commits to your github repository.  
      
     Command:  ```git push```  
+    
      ⚠️ The first time you run `git push` on a newly created branch, it does not yet exist on github. You will get an error message showing you the command to run to create this branch on github.com. It should look something like this: ```git push --set-upstream origin <name-of-your-branch>```  
      
   <br>
