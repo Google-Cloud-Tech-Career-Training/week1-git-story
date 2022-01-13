@@ -33,6 +33,13 @@ On Windows, you will need to run these commands from git bash ([Git Bash downloa
 
 # Exercise 
 
+In this exercise you will learn about: 
+- Branches
+- Staging and committing 
+- Pushing to remote 
+- Creating a Pull Request 
+<br>
+
 1. Create a branch off the `main` branch  
     
     >By creating a branch, you're making a copy of the branch that you're currently on (i.e. `main`), and giving a name to this copy (your branch name). Changes to your branch will not affect the source branch. 
@@ -120,5 +127,9 @@ On Windows, you will need to run these commands from git bash ([Git Bash downloa
 # Additional resources
 - [Git Cheet Sheet](https://education.github.com/git-cheat-sheet-education.pdf)
 - [About branches](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches)
+- [Git guides](https://github.com/git-guides/)
+- [Git add (staging)](https://github.com/git-guides/git-add)
+- [Git commit](https://github.com/git-guides/git-commit)
+- [Git push](https://github.com/git-guides/git-push)
 
 
