@@ -34,8 +34,12 @@ On Windows, you will need to run these commands from git bash ([Git Bash downloa
 # Exercise 
 
 1. Create a branch off the `main` branch  (replace `<name-of-your-branch>` with the name of your branch)  
-  ```git checkout -b <name-of-your-branch>```
-  <br>
+    
+    >By creating a branch, you're making a copy of the branch that you're currently on (i.e. `main`), and giving a name to this copy (your branch name). Changes to your branch will not affect the source branch. 
+
+    Command: ```git checkout -b <name-of-your-branch>```
+  
+  <br>  
   
 2. Assign a value to every variable in the file `words.py`
 
@@ -44,19 +48,35 @@ On Windows, you will need to run these commands from git bash ([Git Bash downloa
 
 3. **Stage** your changes, preparing for the **commit**  
 
-   ```git add .``` The `.` here represents "the current folder", or in other words "all files in the current folder". You could also stage a single file 
+    >When you make changes to files you must stage them before committing them. Only staged changes will be saved when you commit. If you don't want to save the changes to a specific file for example, you could avoid staging that file. In your next commit, those changes will not be included.   
+
+   Command:  ```git add .```  
+   
+   The `.` here represents "the current folder", or in other words "all files in the current folder". You could also stage a single file 
    like this `git add words.py`. 
    
+    <br>
+    
  4. **Commit** your **staged** changes and write a short descriptive message about your changes.  
- 
-     ```git commit -m "<short description of changes>"```
-   
+     
+     >The commit command captures a snapshot of the project's currently staged changes. You can always roll back to this commit later, no matter what other changes you've made.   
+
+    Command:  ```git commit -m "<short description of changes>"```
+     
+     <br>
+     
  5. **Push** your locally committed changes to github.com  
-  
-     ```git push```  
+     
+     >The push command uploads all your current commits to your github repository.  
+     
+    Command:  ```git push```  
      ⚠️ The first time you run `git push` on a newly created branch, it does not yet exist on github. You will get an error message showing you the command to run to create this branch on github.com. It should look something like this: ```git push --set-upstream origin <name-of-your-branch>```  
+     
+  <br>
    
  6. Create a **Pull Request** on github
+    
+    >By opening a Pull Request you are requesting to merge the changes on your branch into another branch (the base branch). You can think of it as making your "copy" the main version.   
     
     1. In the **Pull Requests** menu, create a new Pull Request   
     <br>
