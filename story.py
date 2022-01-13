@@ -12,6 +12,4 @@ noticed it was missing a {words.noun2}. Meanwhile, a {words.adjective5} {words.c
 {words.pluralBodyPart1} near a {words.adjective6} {words.noun3} by the busy sidewalk."""
 
 def print_story():
-    with open("story.txt", "w") as f:
-        f.write(story)
-    f.close()
+    print(story)
