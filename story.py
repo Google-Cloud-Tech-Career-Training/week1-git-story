@@ -10,3 +10,6 @@ too {words.adjective4}. At the next shop {words.name1} found the perfect {words.
 noticed it was missing a {words.noun2}. Meanwhile, a {words.adjective5} {words.clothingItem2} fit
 {words.name2} {words.adverb1}! After a long day of shopping they both rested their
 {words.pluralBodyPart1} near a {words.adjective6} {words.noun3} by the busy sidewalk."""
+
+def print_story():
+    print(story)

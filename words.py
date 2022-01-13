@@ -1,4 +1,3 @@
-
 name1 = ""
 name2 = ""
 pluralNoun1 = ""
@@ -26,5 +25,3 @@ adverb1 = ""
 pluralBodyPart1 = ""
 adjective6 = ""
 noun3 = ""
-
-print(story)
