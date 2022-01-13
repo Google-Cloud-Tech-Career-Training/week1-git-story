@@ -1,5 +1,5 @@
 
-### Setup git on local environment
+## Local environment setup 
 ***Windows only***: 
 On Windows, you will need to run these commands from git bash ([Git Bash download](https://git-scm.com/downloads)).
 
@@ -18,4 +18,14 @@ On Windows, you will need to run these commands from git bash ([Git Bash downloa
     - `$ git config --global user.email "you@example.com"`  
     - `$ git config --global user.name "Your Name"`  
 
+
+## Clone this repository 
+
+  - Locate and click on the green **CODE** button in the top right of this page 
+  - Select **SSH**
+  - Copy the url 
+  - From your terminal, type the following command (replace `<url>` with the url):   
+  ```git clone <url>```
+
+![git_screenshot_code_link](https://user-images.githubusercontent.com/34327253/149275115-b26a213a-2efe-4165-a8f1-1392b60d9f5f.png)
 
