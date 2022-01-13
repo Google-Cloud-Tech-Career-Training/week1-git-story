@@ -26,18 +26,18 @@ On Windows, you will need to run these commands from git bash ([Git Bash downloa
   - Select **SSH**
   - Copy the url 
   - In your terminal, `cd` into the location where you would like this repo to live. The next command will create a folder containing this repo's files. 
-  - Type the following command (replace `<url>` with the url):   
-  ```git clone <url>```
+  - Type the following command :   
+  ```git clone <url>```   (replace `<url>` with the url)
 
 ![git_screenshot_code_link](https://user-images.githubusercontent.com/34327253/149275115-b26a213a-2efe-4165-a8f1-1392b60d9f5f.png)
 
 # Exercise 
 
-1. Create a branch off the `main` branch  (replace `<name-of-your-branch>` with the name of your branch)  
+1. Create a branch off the `main` branch  
     
     >By creating a branch, you're making a copy of the branch that you're currently on (i.e. `main`), and giving a name to this copy (your branch name). Changes to your branch will not affect the source branch. 
 
-    Command: ```git checkout -b <name-of-your-branch>```
+    Command: ```git checkout -b <name-of-your-branch>```  (replace `<name-of-your-branch>` with the name of your branch)
   
   <br>  
   
@@ -53,7 +53,7 @@ On Windows, you will need to run these commands from git bash ([Git Bash downloa
    Command:  ```git add .```  
    
    The `.` here represents "the current folder", or in other words "all files in the current folder". You could also stage a single file 
-   like this `git add words.py`. 
+   like this: `git add words.py` . 
    
     <br>
     
