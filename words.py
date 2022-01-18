@@ -1,3 +1,4 @@
+
 name1 = "Kalkidan"
 name2 = "Kidus"
 pluralNoun1 = "shchools"
@@ -22,6 +23,3 @@ adjective5 = "Red"
 clothingItem2 = "shirts"
 name2 = "Mathias"
 adverb1 = "sitting"
-pluralBodyPart1 = "eyes"
-adjective6 = "blue"
-noun3 = "children"
