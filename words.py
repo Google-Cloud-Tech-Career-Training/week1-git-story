@@ -1,4 +1,4 @@
-name1 = "Brutus"
+name1 = "Love"
 name2 = "Lucius"
 pluralNoun1 = "Guitars"
 adjective1 = "Dank"
